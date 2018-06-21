@@ -1,4 +1,12 @@
 
+@media screen and (max-width: 450px) {
+
+    body {
+        margin: 0;
+    }
+
+}
+
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
@@ -10,6 +18,11 @@ body {
     font-weight: 700;
     font-size: 4em;
     text-align: center;
+    background: #C10828;
+    color: #fff;
+    padding: 20px;
+    border-top: 2px solid #203B80;
+    border-bottom: 2px solid #203B80;
   }
   
   h2 {
@@ -116,15 +129,17 @@ body {
     border-top: 2px solid white;
     padding: 0px 20px 20px 20px;
   }
-  
-  #quote-div {
-    border-top: 2px solid white;
+
+  #author {
+      font-weight: 700;
   }
   
   blockquote {
     background-color:	#b4ffff;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
     border-radius: 10px;
     font-size: 1.2em;
     font-style: italic;
+    text-align: justify;
   }
+
