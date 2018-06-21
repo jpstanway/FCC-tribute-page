@@ -1,0 +1,130 @@
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;  
+    font-size: 2em;
+  }
+  
+  li {
+    font-size: 1.1em;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  #main {
+    background: #fff;
+    max-width: 1080px;
+    margin: auto;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+  }
+  
+  #img-div {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 5px solid rgba(0,0,0, 0.3);
+  }
+  
+  #img-caption {
+    font-style: italic;
+  }
+  
+  #stats-div {
+    background: #203B80;
+    border-top: 2px solid white;
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  #stats-title {
+    background: #C10828;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transform: skewX(32deg);
+    margin-top: -2px;
+  }
+  
+  #stats-title:after {
+    position: absolute;
+    width: 44px;
+    height: 60px;
+    background-color: #C10828;
+    content: "";
+    right: -22px;
+    top: 0px;
+    transform: skewX(-32deg);
+  }
+  
+  #awards-title {
+    background: #203B80;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transform: skewX(32deg);
+    margin-top: -2px;
+  }
+  
+  #awards-title:after {
+    position: absolute;
+    width: 44px;
+    height: 60px;
+    background-color: #203B80;
+    content: "";
+    right: -22px;
+    top: 0px;
+    transform: skewX(-32deg);
+  }
+  
+  h2 {
+    color: #fff;
+    margin: 0;
+    transform: skewX(-32deg);
+  }
+  
+  #stats-list {
+    list-style-type: none;
+  }
+  
+  .stats {
+    font-weight: 700;
+  }
+  
+  #awards-div {
+    background: #C10828;
+    color: #fff;
+    border-top: 2px solid white;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  #quote-div {
+    border-top: 2px solid white;
+  }
+  
+  blockquote {
+    background-color:	#b4ffff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+  }
