@@ -5,11 +5,18 @@
         margin: 0;
     }
 
+    blockquote {
+      margin: 5px !important;
+      padding: 10px 20px 10px 20px !important;
+      text-align: left !important;
+    }
+
 }
 
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
+    line-height: 1.7em;
     background-color: #f0f0f0;
   }
   
@@ -20,7 +27,7 @@ body {
     text-align: center;
     background: #C10828;
     color: #fff;
-    padding: 20px;
+    padding: 30px 20px 40px 20px;
     border-top: 2px solid #203B80;
     border-bottom: 2px solid #203B80;
   }
@@ -32,7 +39,7 @@ body {
   }
   
   li {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   
   footer {
@@ -42,9 +49,11 @@ body {
   #main {
     background: #fff;
     max-width: 1080px;
+    width: 100%;
     margin: auto;
     padding: 10px 0;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    overflow: hidden;
   }
   
   #img-div {
@@ -68,7 +77,7 @@ body {
     background: #203B80;
     border-top: 2px solid white;
     color: #fff;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 20px;
   }
   
   #stats-title {
@@ -82,10 +91,10 @@ body {
   #stats-title:after {
     position: absolute;
     width: 44px;
-    height: 60px;
+    height: 46.67px;
     background-color: #C10828;
     content: "";
-    right: -22px;
+    right: -2px;
     top: 0px;
     transform: skewX(-32deg);
   }
@@ -101,10 +110,10 @@ body {
   #awards-title:after {
     position: absolute;
     width: 44px;
-    height: 60px;
+    height: 46.67px;
     background-color: #203B80;
     content: "";
-    right: -22px;
+    right: -2px;
     top: 0px;
     transform: skewX(-32deg);
   }
@@ -117,6 +126,7 @@ body {
   
   #stats-list {
     list-style-type: none;
+    padding-right: 20px;
   }
   
   .stats {
@@ -127,7 +137,11 @@ body {
     background: #C10828;
     color: #fff;
     border-top: 2px solid white;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 20px;
+  }
+
+  #awards-list {
+    padding-right: 20px;
   }
 
   #author {
