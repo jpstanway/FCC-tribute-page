@@ -12,11 +12,10 @@
 
 }
 
-body {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 16px;
-    line-height: 1.7em;
-    background-color: #f0f0f0;
+  body {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 16px;
+      background-color: #f0f0f0;
   }
   
   h1 {
@@ -35,10 +34,23 @@ body {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;  
     font-size: 2em;
+    color: #fff;
+    margin: 0;
+    transform: skewX(-32deg);
   }
   
   li {
     font-size: 1.2em;
+    line-height: 1.7em;
+  }
+
+  blockquote {
+    background-color:	#b4ffff;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.7em;
   }
   
   footer {
@@ -90,7 +102,7 @@ body {
   #stats-title:after {
     position: absolute;
     width: 44px;
-    height: 46.67px;
+    height: 60px;
     background-color: #C10828;
     content: "";
     right: -2px;
@@ -109,7 +121,7 @@ body {
   #awards-title:after {
     position: absolute;
     width: 44px;
-    height: 46.67px;
+    height: 60px;
     background-color: #203B80;
     content: "";
     right: -2px;
@@ -117,19 +129,9 @@ body {
     transform: skewX(-32deg);
   }
   
-  h2 {
-    color: #fff;
-    margin: 0;
-    transform: skewX(-32deg);
-  }
-  
   #stats-list {
     list-style-type: none;
     padding-right: 20px;
-  }
-  
-  .stats {
-    font-weight: 700;
   }
   
   #awards-div {
@@ -146,12 +148,10 @@ body {
   #author {
       font-weight: 700;
   }
-  
-  blockquote {
-    background-color:	#b4ffff;
-    padding: 20px 50px 20px 50px;
-    border-radius: 10px;
-    font-size: 1.2em;
-    font-style: italic;
+
+  .stats {
+    font-weight: 700;
   }
+  
+
 
